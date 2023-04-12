@@ -10,15 +10,15 @@ The GoF Design Patterns are broken into three categories: Creational Patterns fo
 
 ## Creational Patterns
 
-* [Abstract Factory](Patterns/AbstractFactory/README.md)
+* [Abstract Factory](Patterns/AbstractFactory)
 
-* [Builder](Patterns/Builder/README.md)
+* [Builder](Patterns/Builder)
 
-* [Factory Method](Patterns/FactoryMethod/README.md)
+* [Factory Method](Patterns/FactoryMethod)
 
-* [Prototype](Patterns/Prototype/README.md)
+* [Prototype](Patterns/Prototype)
 
-* [Singleton](Patterns/Singleton/README.md)
+* [Singleton](Patterns/Singleton)
 
 ## Structural Patterns
 
