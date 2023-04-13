@@ -25,7 +25,7 @@ namespace design_patterns.Patterns.Tests.Prototype
             Assert.NotSame(chessboard, copy); // The two objects are different instances
             Assert.Equal(chessboard.Opponent1, copy.Opponent1);
             Assert.Equal(chessboard.Opponent2, copy.Opponent2);
-            Assert.Equal(chessboard.ChessPieces, copy.ChessPieces);
+            Assert.Equal(chessboard.ChessPieces, copy.ChessPieces!);
         }
     }
 }
