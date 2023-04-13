@@ -22,4 +22,18 @@ The GoF Design Patterns are broken into three categories: Creational Patterns fo
 
 ## Structural Patterns
 
+* [Adapter](Patterns/Adapter)
+
+* [Bridge](Patterns/Bridge)
+
+* [Composite](Patterns/Composite)
+
+* [Decorator](Patterns/Decorator)
+
+* [Facade](Patterns/Facade)
+
+* [Flyweight](Patterns/Flyweight)
+
+* [Proxy](Patterns/Proxy)
+
 ## Behavioral Patterns
