@@ -13,9 +13,9 @@ namespace design_patterns.Patterns.Tests.ChainOfResponsibility
             var dollar10Dispenser = new Dollar10Dispenser();
             dollar50Dispenser.SetNext(dollar20Dispenser).SetNext(dollar10Dispenser);
 
-            string result = dollar50Dispenser.Dispense(new Currency(80));
+            string result = dollar50Dispenser.Dispense(new Currency(130));
 
-            Assert.Equal("Dispensing 1 50$ note. Dispensing 1 20$ note. Dispensing 1 10$ note. Dispensing finished.", result);
+            Assert.Equal("Dispensing 2 50$ note. Dispensing 1 20$ note. Dispensing 1 10$ note. Dispensing finished.", result);
         }
     }
 }
