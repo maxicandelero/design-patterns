@@ -2,7 +2,7 @@ namespace design_patterns.Patterns.ChainOfResponsibility
 {
     // The default chaining behavior can be implemented inside a base handler
     // class.
-    public abstract class DispenserBase : IDispenseChain
+    public abstract class BaseDispenser : IDispenseChain
     {
         protected IDispenseChain _handler;
 

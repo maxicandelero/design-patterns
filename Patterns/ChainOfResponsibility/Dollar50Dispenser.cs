@@ -1,6 +1,6 @@
 namespace design_patterns.Patterns.ChainOfResponsibility
 {
-    public class Dollar50Dispenser : DispenserBase
+    public class Dollar50Dispenser : BaseDispenser
     {
         public override string Dispense(Currency currency)
         {

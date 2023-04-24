@@ -8,9 +8,9 @@ namespace design_patterns.Patterns.Tests.ChainOfResponsibility
         [Fact]
         public void validate_an_atm_dispense_chain()
         {   
-            var dollar50Dispenser = new Dollar50Dispenser();
-            var dollar20Dispenser = new Dollar20Dispenser();
-            var dollar10Dispenser = new Dollar10Dispenser();
+            BaseDispenser dollar50Dispenser = new Dollar50Dispenser();
+            BaseDispenser dollar20Dispenser = new Dollar20Dispenser();
+            BaseDispenser dollar10Dispenser = new Dollar10Dispenser();
             dollar50Dispenser.SetNext(dollar20Dispenser).SetNext(dollar10Dispenser);
 
             string result = dollar50Dispenser.Dispense(new Currency(130));
