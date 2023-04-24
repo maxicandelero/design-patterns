@@ -37,3 +37,23 @@ The GoF Design Patterns are broken into three categories: Creational Patterns fo
 * [Proxy](Patterns/Proxy)
 
 ## Behavioral Patterns
+
+* [Chain of Responsibility](Patterns/ChainOfResponsibility)
+
+* [Command](Patterns/Command)
+
+* [Iterator](Patterns/Iterator)
+
+* [Mediator](Patterns/Mediator)
+
+* [Memento](Patterns/Memento)
+
+* [Observer](Patterns/Observer)
+
+* [State](Patterns/State)
+
+* [Strategy](Patterns/Strategy)
+
+* [Template Method](Patterns/TemplateMethod)
+
+* [Visitor](Patterns/Visitor)
